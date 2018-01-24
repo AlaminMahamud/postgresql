@@ -4,6 +4,20 @@
     sudo su postgres
     psql
   #+end_src
+  create db
   #+begin_src sql
   CREATE DATABASE <database_name>;
   #+end_src
+  to connect to a database
+  #+begin_src sql
+    \c <database_name>
+  #+end_src
+  database tables list
+  #+begin_src sql
+    \dt
+  #+end_src
+
+  see table details
+  #+begin_src sql
+\d+ <table_name>
+#+end_src
