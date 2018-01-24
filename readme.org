@@ -1,0 +1,9 @@
+#+TITLE: Awesome Postgresql
+* Create Database
+  #+begin_src sh
+    sudo su postgres
+    psql
+  #+end_src
+  #+begin_src sql
+  CREATE DATABASE <database_name>;
+  #+end_src
